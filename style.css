@@ -268,3 +268,19 @@ body {
     color: rgb(98, 127, 156);
     cursor: pointer;
 }
+
+#shelf {
+    float: right;
+    width: 400px;
+    height: fit-content;
+    /* border: 1px solid red; */
+    margin-top: 65px;
+    padding: 0px;
+    margin-bottom: -5px;
+}
+
+#h-insta {
+    height: 55px;
+    margin-left: 20px;
+    cursor: pointer;
+}

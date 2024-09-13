@@ -6,7 +6,7 @@
 
 #left-navbar {
     width: 130px;
-    height: 100vh;
+    height: 180vh;
     z-index: 0;
     background-color: rgb(71, 71, 71);
     color: white;
@@ -109,12 +109,6 @@ Left Navigation Bar */
 
 
 
-
-
-
-
-
-
 body {
     font-family: "Libre Franklin";
     background-color: white;
@@ -142,7 +136,7 @@ body {
 
 #h12 {
     color: rgb(0, 0, 0);
-    margin: 0px;
+    margin-top: 2px;
     /* text-shadow: 3px 3px 4px #bdbdbd; */
 }
 
@@ -269,7 +263,7 @@ body {
 }
 
 #jake-hr-li {
-    height: 230px;
+    height: 280px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -279,7 +273,7 @@ body {
 }
 
 #jon-hr-li {
-    height: 130px;
+    height: 285px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -288,15 +282,16 @@ body {
     border-radius: 5px;
 }
 
+#ps,
 #vp,
 #sc,
 #ts,
 #hs {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #isaac-hr-li {
-    height: 185px;
+    height: 235px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -306,7 +301,7 @@ body {
 }
 
 #ang-hr-li {
-    height: 130px;
+    height: 190px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -316,7 +311,7 @@ body {
 }
 
 #gabe-hr-li {
-    height: 200px;
+    height: 230px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -345,9 +340,38 @@ body {
     margin-right: 7px;
 }
 
+#profile-img2 {
+    height: 32px;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+#cont-gmail {
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+#cont-dc {
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+#cont-inst {
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
 #contact {
     color: gray;
     margin-top: -5px;
+}
+
+#contact2 {
+    color: gray;
+    margin-top: -15px;
 }
 
 #nice-mailto {
@@ -355,5 +379,60 @@ body {
 }
 
 .isaac-bd-lol {
-    border: 01px solid black
+    border: 01px solid black;
+}
+
+#subli {
+    margin-left: 20px;
+    list-style-type: "> ";
+}
+
+#pres,
+#vice-p,
+#sec,
+#tres,
+#his {
+    margin-top: 20px;
+    width: fit-content;
+    padding: 1px;
+    /* border: 1px solid red; */
+}
+
+#officers {
+    float: right;
+    /* border: 1px red solid; */
+    margin-right: 200px;
+}
+
+#of-hr {
+    height: 5px;
+    width: 700px;
+    border: none;
+    background-color: slategray;
+    border-radius: 5px;
+}
+
+#ss {
+    margin-bottom: 5px;
+}
+
+#ss-name {
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+#shelf {
+    float: right;
+    width: 400px;
+    height: fit-content;
+    /* border: 1px solid red; */
+    margin-top: 65px;
+    padding: 0px;
+    margin-bottom: -5px;
+}
+
+#h-insta {
+    height: 55px;
+    margin-left: 20px;
+    cursor: pointer;
 }

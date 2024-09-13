@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link rel="shortcut icon" href="images/sit.png" type="image/x-icon" />
     <title>S.I.T About Us</title>
     <link rel="stylesheet" href="styles/about-us.css" />
 </head>
-
 <body>
 
     <div id="main-header">
@@ -15,6 +13,13 @@
             <img src="images/ohr.png" id="ohr-image">
         </div>
         <h1 id="h11">Student Integrated Technologies</h1>
+
+        <div id="shelf">
+            <img src="images/half-discord.png" onclick="location.href='https://discord.gg/w8wq64D7v5'" target="_blank" id="h-insta">
+            <img src="images/half-gmail.png" onclick="document.getElementById('scroll').scrollIntoView({ behavior: 'smooth'});" id="h-insta">
+            <img src="images/half-instagram.png" onclick="location.href='https://www.instagram.com/sit_orhs/'" target="blank_" id="h-insta">
+        </div>
+
     </div>
 
     <div id="left-navbar">
@@ -45,9 +50,18 @@
         <p id="h21">Here's a bit about us. Feel free to join our <b id="hyperlink"
                 onclick="location.href='https://discord.gg/w8wq64D7v5'" target="_blank"
                 title="Join the SIT Discord Server">Official Discord server</b> for any questions.</p>
-        <hr width="600px">
+
+        <hr>
+
+        <div id="officers">
+            <h1 id="ss">SS Officers</h1>
+            <hr id="of-hr">
+                <p id="ss-name"><img src="https://cdn.discordapp.com/avatars/776949817279774781/7c1ae5ce1321dac69ae1102965c41634.webp?size=1024&format=webp&width=0&height=256"  id="profile-img2">Lucas Porcel</p>
+        </div>
+
+    <div id="pres">
         <hr id="jake-hr-li">
-        <h2 class="left" id="president">President:</h2>
+        <h2 class="left" id="ps"><u>President:</u></h2>
         <img src="https://lh3.googleusercontent.com/a/ACg8ocLem7OQgd77Z4FhG-d5U-jHYnIMBHZwMpW526a9pPSCPllF-dkw=s32-p" id="profile-img">
         <p class="left" id="name">Jake Cu &nbsp | &nbsp 11th grade</p>
         <ul class="left">
@@ -58,21 +72,34 @@
             <li>Digital Producer</li>
             <li>Weeb</li>
         </ul>
-        <h5 class="left" id="contact">Contact: &nbsp;<a id="nice-mailto" href="mailto:1584166@sweetwaterschools.net" target="blank_">1584166@sweetwaterschools.net</a></h5>
-
+        <h5 class="left" id="contact"><img src="images/gmail.png" id="cont-gmail"> &nbsp;<a id="nice-mailto" href="mailto:1584166@sweetwaterschools.net" target="blank_">1584166@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/741435367714193479" target="blank_">ijake.com</a></h5>
+        <h5 class="left" id="contact2"><img src="images/instagram.png" id="cont-inst"> &nbsp;<a id="nice-mailto" href="https://www.instagram.com/sit_orhs/" target="blank_">sit_orhs</a></h5>
+    </div>
         
+    <div id="vice-p">
         <hr id="jon-hr-li">
-        <h2 class="left" id="vp">Vice President:</h2>
-        <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-512x512-zxne30hp.png" id="profile-img">
-        <p class="left" id="name">Jon - &nbsp | &nbsp 11th grade</p>
+        <h2 class="left" id="vp"><u>Vice President:</u></h2>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocJJP3UvgwnHmDELKdWoXaUUhsPhZ6SjV_jXQLmKNzlGc0zogQ=s32-p" id="profile-img">
+        <p class="left" id="name">Jonathan Filomeno &nbsp | &nbsp 11th grade</p>
         <ul class="left">
-            <li>tbd</li>
+            <li>AP CSP/CSA Student</li>
+            <li>Minecraft modder</li>
+                <li id="subli">Server networker</li>
+                <li id="subli">Bugfixer</li>
+            <li>Chem & Bio nerd</li>
+            <li>Plans to major in Biotechnologies at UCSD</li>
+            <li id="subli">Emphasis on cybernetic implants</li>
+            <li id="subli">Open to any “other” (BETER) colleges </li>
+
         </ul>
-        <h5 class="left" id="contact">Contact: &nbsp;<a id="nice-mailto" href="mailto:x" target="blank_">x</a></h5>
+        <h5 class="left" id="contact"><img src="images/gmail.png" id="cont-gmail"> &nbsp;<a id="nice-mailto" href="mailto:1585444@sweetwaterschools.net" target="blank_">1585444@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/741144675754311691" target="blank_">xzvo15</a></h5>
+    </div>
 
-
+    <div id="sec">
         <hr id="isaac-hr-li">
-        <h2 class="left" id="sc">Secretary:</h2>
+        <h2 class="left" id="sc"><u>Secretary:</u></h2>
         <img src="https://lh3.googleusercontent.com/ogw/AF2bZyj5kiPoLW3SDgDQQ9NYy3b5WKo4yB1XdR_p_oFux5RT3H4=s32-c-mo" id="profile-img" class="isaac-bd-lol">
         <p class="left" id="name">Isaac Heydelaar &nbsp | &nbsp 11th grade</p>
         <ul class="left">
@@ -82,22 +109,29 @@
             <li>No future plans (sob)</li>
 
         </ul>
-        <h5 class="left" id="contact">Contact: &nbsp;<a id="nice-mailto" href="mailto:1583024@sweetwaterschools.net" target="blank_">1583024@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact"><img src="images/gmail.png" id="cont-gmail"> &nbsp;<a id="nice-mailto" href="mailto:1583024@sweetwaterschools.net" target="blank_">1583024@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/1136008749920817192" target="blank_">googlechromeium</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/738537511110049883" target="blank_">squishyisaac</a> &nbsp; - &nbsp; Emergencies only!</h5>
+    </div>
 
-
+    <div id="tres">
         <hr id="ang-hr-li">
-        <h2 class="left" id="ts">Treasurer:</h2>
-        <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-512x512-zxne30hp.png" id="profile-img">
-        <p class="left" id="name">Angelina Meza &nbsp | &nbsp 11th grade</p>
+        <h2 class="left" id="ts"><u>Treasurer:</u></h2>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocKsdON1tRlsf5FOPWM8r-QFglQevUhdLzbfTti0Z34bdt1rsU4Y=s24-p" id="profile-img">
+        <p class="left" id="name">Angelina Meza &nbsp | &nbsp 12th grade</p>
         <ul class="left">
-            <li>tbd</li>
+            <li>Some random artist</li>
+            <li>Nerd</li>
+            <li>Was hired because they needed someone to count money</li>
 
         </ul>
-        <h5 class="left" id="contact">Contact: &nbsp;<a id="nice-mailto" href="mailto:x" target="blank_">x</a></h5>
+        <h5 class="left" id="contact"><img src="images/gmail.png" id="cont-gmail"> &nbsp;<a id="nice-mailto" href="mailto:ameza40@sweetwaterschools.net" target="blank_">ameza40@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/399721876387135500" target="blank_">amkittie</a></h5>
+    </div>
 
-
+    <div id="his">
         <hr id="gabe-hr-li">
-        <h2 class="left" id="hs">Historian:</h2>
+        <h2 class="left" id="hs"><u>Historian:</u></h2>
         <img src="https://lh3.googleusercontent.com/a-/ALV-UjVjfQrZ2hKPSo0RgdUJfAarv38nPYs9u_aViO5RCBxiFqVDqmNb=s32-p" id="profile-img">
         <p class="left" id="name">Gabriel Valdes &nbsp | &nbsp 11th grade</p>
         <ul class="left">
@@ -107,20 +141,18 @@
             <li>Planning to pursue higher education for Coding</li>
             <li>Berserk (Peak | Praying for more)</li>
 
-
-
         </ul>
-        <h5 class="left" id="contact">Contact: &nbsp;<a id="nice-mailto" href="mailto:1584826@sweetwaterschools.net" target="blank_">1584826@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact"><img src="images/gmail.png" id="cont-gmail"> &nbsp;<a id="nice-mailto" href="mailto:1584826@sweetwaterschools.net" target="blank_">1584826@sweetwaterschools.net</a></h5>
+        <h5 class="left" id="contact2"><img src="images/discord.png" id="cont-dc"> &nbsp;<a id="nice-mailto" href="https://discord.com/users/758414063465136170" target="blank_">epicsquishmanpeanut</a></h5>
+    </div>
 
 
-
-
-
-        <hr style="margin-top: 1000px" id="footer">
+        <hr id="footer">
         <p id="footer-text">
-            Otay Ranch High School &nbsp • &nbsp Room 453 &nbsp • &nbsp Contact us at <a href="mailto:orhs.sit@gmail.com" target="blank_">orhs.sit@gmail.com</a>
+            Otay Ranch High School &nbsp • &nbsp Room 453 &nbsp • &nbsp Contact us at <a href="mailto:orhs.sit@gmail.com" target="blank_" id="scroll">orhs.sit@gmail.com</a>
         </p>
     </div>
+
 
 
     <div id="modal-suggestion">
@@ -134,5 +166,4 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="scripts.js"></script>
 </body>
-
 </html>
