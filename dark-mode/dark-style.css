@@ -5,8 +5,9 @@
  */
 
 #left-navbar {
+    margin-top: 1px;
     width: 130px;
-    height: 180vh;
+    height: 100vh;
     z-index: 0;
     background-color: rgb(71, 71, 71);
     color: white;
@@ -16,14 +17,14 @@
     position: absolute;
 }
 
-#about-us {
+#home {
     padding-top: 6px;
     background-color: rgba(105, 105, 105, 0.8);
     /* border: 1px red solid; */
     height: 30px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
 
@@ -42,7 +43,7 @@
 
 #schedule,
 #projects,
-#home {
+#about-us {
     height: 30px;
     padding-top: 6px;
     border-top-right-radius: 20px;
@@ -55,7 +56,7 @@
 
 #schedule:hover,
 #projects:hover,
-#home:hover {
+#about-us:hover {
     background-color: rgba(105, 105, 105, 0.5);
     cursor: pointer;
 }
@@ -109,11 +110,18 @@ Left Navigation Bar */
 
 
 
+
+
+
+
+
+
 body {
     font-family: "Libre Franklin";
-    background-color: white;
+    color: white;
+    background-color: rgb(51, 51, 51);
     margin: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     user-select: none;
 }
 
@@ -135,8 +143,8 @@ body {
 }
 
 #h12 {
-    color: rgb(0, 0, 0);
-    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
     /* text-shadow: 3px 3px 4px #bdbdbd; */
 }
 
@@ -250,176 +258,16 @@ body {
 }
 
 #discord-img:hover {
-    transform: scale(1.03);
+    transform: scale(1.03)
 }
 
 #discord-img:active {
-    transform: scale(0.9);
+    transform: scale(.9)
 }
 
 #hyperlink {
     color: rgb(98, 127, 156);
     cursor: pointer;
-}
-
-#jake-hr-li {
-    height: 280px;
-    width: 5px;
-    border: none;
-    background-color: slategray;
-    float: left;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-#jon-hr-li {
-    height: 285px;
-    width: 5px;
-    border: none;
-    background-color: slategray;
-    float: left;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-#ps,
-#vp,
-#sc,
-#ts,
-#hs {
-    margin-top: 10px;
-}
-
-#isaac-hr-li {
-    height: 235px;
-    width: 5px;
-    border: none;
-    background-color: slategray;
-    float: left;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-#ang-hr-li {
-    height: 190px;
-    width: 5px;
-    border: none;
-    background-color: slategray;
-    float: left;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-#gabe-hr-li {
-    height: 230px;
-    width: 5px;
-    border: none;
-    background-color: slategray;
-    float: left;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-.left {
-    text-align: left;
-    margin-left: 30px;
-}
-
-#name {
-    font-weight: bold;
-    color: rgb(77, 77, 77);
-    margin-top: -10px;
-}
-
-#profile-img {
-    height: 32px;
-    border-radius: 20px;
-    float: left;
-    margin-top: -16px;
-    margin-left: 5px;
-    margin-right: 7px;
-}
-
-#profile-img2 {
-    height: 32px;
-    border-radius: 20px;
-    margin-bottom: -10px;
-    margin-right: 5px;
-}
-
-#cont-gmail {
-    height: 16px;
-    float: left;
-    margin-right: 5px;
-}
-
-#cont-dc {
-    height: 16px;
-    float: left;
-    margin-right: 5px;
-}
-
-#cont-inst {
-    height: 21px;
-    float: left;
-    margin-right: 5px;
-}
-
-#contact {
-    color: gray;
-    margin-top: -5px;
-}
-
-#contact2 {
-    color: gray;
-    margin-top: -15px;
-}
-
-#nice-mailto {
-    color: slategray;
-}
-
-.isaac-bd-lol {
-    border: 01px solid black;
-}
-
-#subli {
-    margin-left: 20px;
-    list-style-type: "> ";
-}
-
-#pres,
-#vice-p,
-#sec,
-#tres,
-#his {
-    margin-top: 20px;
-    width: fit-content;
-    padding: 1px;
-    /* border: 1px solid red; */
-}
-
-#officers {
-    float: right;
-    /* border: 1px red solid; */
-    margin-right: 200px;
-}
-
-#of-hr {
-    height: 5px;
-    width: 700px;
-    border: none;
-    background-color: slategray;
-    border-radius: 5px;
-}
-
-#ss {
-    margin-bottom: 5px;
-}
-
-#ss-name {
-    font-weight: bold;
-    color: rgb(77, 77, 77);
 }
 
 #shelf {
