@@ -144,12 +144,16 @@ body {
 
 #h12 {
     color: rgb(255, 255, 255);
-    margin: 0px;
+    margin: 5px;
     /* text-shadow: 3px 3px 4px #bdbdbd; */
 }
 
 #h21 {
     margin-top: 5px;
+}
+
+#h13 {
+    margin-top: 10px;
 }
 
 #main {
@@ -314,4 +318,17 @@ body {
 
 #sun:hover {
     cursor: pointer;
+}
+
+#subheading {
+    margin-top: -15px;
+    color: rgb(226, 226, 226);
+}
+
+#joinuspopup {
+    border: 5px solid #2a2a2a;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
 }

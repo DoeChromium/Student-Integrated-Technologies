@@ -144,7 +144,7 @@ body {
 
 #h12 {
     color: rgb(255, 255, 255);
-    margin: 0px;
+    margin: 5px;
     /* text-shadow: 3px 3px 4px #bdbdbd; */
 }
 
@@ -314,4 +314,9 @@ body {
 
 #sun:hover {
     cursor: pointer;
+}
+
+#subheading {
+    margin-top: -15px;
+    color: rgb(82, 82, 82);
 }
