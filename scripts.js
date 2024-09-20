@@ -84,9 +84,9 @@ if (width == "1517", height == "852") {
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     if (confirm('You are on mobile, would you like to visit the mobile-friendly site?')) {
-        alert('Redirecting');
+        window.location.replace('mobile.html')
     } else {
-        alert('Cancled');
+        void(0)
     }
     document.getElementById('print').textContent += " | mobile warning!"
 } else {
