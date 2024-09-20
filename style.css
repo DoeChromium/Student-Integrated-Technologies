@@ -17,6 +17,11 @@
     position: absolute;
 }
 
+/* #nav-content {
+    position: fixed;
+    width: 130px;
+} */
+
 #home {
     padding-top: 6px;
     background-color: rgba(105, 105, 105, 0.8);
@@ -118,7 +123,8 @@ Left Navigation Bar */
 
 body {
     font-family: "Libre Franklin";
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(51, 51, 51);
     margin: 0;
     overflow: hidden;
     user-select: none;
@@ -142,7 +148,7 @@ body {
 }
 
 #h12 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 5px;
     /* text-shadow: 3px 3px 4px #bdbdbd; */
 }
@@ -268,33 +274,46 @@ body {
     transform: scale(.9)
 }
 
-#hyperlink {
-    color: rgb(98, 127, 156);
+#hyperlink,
+a {
+    color: rgb(79, 116, 153);
     cursor: pointer;
 }
 
-#shelf {
+#g-img {
+    height: 16px;
+    margin-left: 24px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+#d-img {
+    height: 16px;
+    margin-left: 11px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+#i-img {
+    height: 18px;
+    margin-left: 23px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+/* #test {
+    margin-right: -40px;
     float: right;
-    width: 270px;
-    /* border: 1px solid red; */
-    margin-top: 88px;
-    padding: 0px;
-    margin-bottom: -5px;
-}
+    width: 10px;
+} */
 
-#h-img {
-    height: 32px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-#dropdown {
+/* #dropdown {
     float: right;
     height: 20px;
     width: 35px;
     height: 60px;
     margin-top: -40px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-right: -243px;
     background-color: rgb(104, 104, 104);
     border-bottom-left-radius: 5px;
@@ -317,11 +336,11 @@ body {
 
 #sun:hover {
     cursor: pointer;
-}
+} */
 
 #subheading {
     margin-top: -15px;
-    color: rgb(63, 63, 63);
+    color: rgb(226, 226, 226);
 }
 
 #joinuspopup {
@@ -337,7 +356,7 @@ body {
     height: fit-content;
     width: fit-content;
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     left: 10px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
