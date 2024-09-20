@@ -504,9 +504,9 @@ a {
 /* MOBILE */
 
 #mobile-sit-img {
-    height: 50px;
+    height: 60px;
     float: left;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
@@ -514,7 +514,7 @@ a {
 
 #mobile-header-text {
     color: white;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     margin-left: 20px;
     text-decoration: underline;
@@ -523,9 +523,9 @@ a {
 #mobile-header-text-holder {
     /* border: 1px solid red; */
     height: 30px;
-    width: 300px;
+    width: 350px;
     float: right;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 #mobile-header {
