@@ -17,21 +17,21 @@
 
     <div id="left-navbar">
         <div id="nav-content">
-        <p id="home" onclick="location.href = 'index.html' ">
+        <p id="home" onclick="siteHome(), clkHome()">
             <img src="images/home.png" id="home-img">
-            &nbsp <b>Home</b>
+            &nbsp Home
         </p>
 
-        <p id="schedule" onclick="location.href = 'schedule.html' ">
+        <p id="schedule" onclick="siteSchedule(), clkSche()">
             <img src="images/callender.png" id="info-img">
             &nbsp Schedule
         </p>
 
-        <p id="projects" onclick="location.href = 'null.html' ">
+        <p id="projects" onclick="siteProjects(), clkProj()">
             <img src="images/cpy.png" id="proj-img">
             &nbsp Projects
         </p>
-        <p id="about-us" onclick="location.href = 'about-us.html' ">
+        <p id="about-us" onclick="siteAboutUs(), clkAbtUs()">
             <img src="images/info.png" id="us-img">
             &nbsp About Us
         </p>
@@ -46,41 +46,12 @@
             <p onclick="location.href='https://github.com/DoeChromium/Student-Integrated-Technologies'" target="_blank" style="cursor: pointer;">
             <u>SourceCode</u></p>
             <p>Copydont S.I.T<sup>©</sup></p>
-            <p>v1.1 BETA</p>
+            <p>v1.2 BETA</p>
             </div>
-            
-        </div>
-
-        <!-- <img src="images/arrow.png" id="arrow"> -->
-    </div>
-
-    <div id="main">
-        <h1 id="h12">Welcome to S.I.T Homepage!</h1>
-        <p id="h21">Welcome to our homepage! We will host variety of information here.</p>
-        <hr width="600px">
-
-        <div id="joinuspopup">
-
-            <h2 id="h13"><img src="images/info.png" height="20px" style="margin-bottom: -2px; filter: invert();"> Looking for members!</h2>
-            <h4 id="subheading">Come to room 453 during lunch on Thursdays or<br>contact us on our <b id="hyperlink" onclick="location.href='https://discord.gg/w8wq64D7v5'" target="_blank" title="Join the SIT Discord Server">Official Discord server</b></h4><img src="images/draft.png" height="500px" style="border-radius: 5px; margin-bottom: -4px; scale: 1.024;">
-
-        </div>
-
-
-        <hr id="footer">
-        <p id="footer-text">
-            Otay Ranch High School &nbsp • &nbsp Room 453 &nbsp • &nbsp  Contact us at <a href="mailto:orhs.sit@gmail.com" target="blank_">orhs.sit@gmail.com</a>
-        </p>
-    </div>
-
-
-    <div id="modal-suggestion">
-        <img src="images/search.png" id="search-img" onclick="location.href='images/goobies.png'"  target="_blank"><br>
-        <div id="discord">Looking for commisions or questions?
-            <br><br>Contact us on our official discord server!<br>
-            <img src="images/discord2.png" id="discord-img" onclick="location.href='https://discord.gg/w8wq64D7v5'"  target="_blank">
         </div>
     </div>
+
+    <iframe src="home.html" id="main-iframe"></iframe>
 
 <!-- JQuery & Main scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
