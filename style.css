@@ -505,6 +505,7 @@ a {
 
 #mobile-sit-img {
     height: 60px;
+    width: 60px;
     float: left;
     margin-top: 5px;
     margin-left: 10px;
@@ -512,20 +513,37 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
+#mobile-header-text-h {
+    margin-left: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#mobile-header-text-a {
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
 #mobile-header-text {
     color: white;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 15px;
     text-decoration: underline;
 }
 
 #mobile-header-text-holder {
-    /* border: 1px solid red; */
-    height: 30px;
-    width: 350px;
+    border: 1px solid red;
+    height: 20px;
+    width: 310px;
     float: right;
     margin-top: 45px;
+    text-align: right;
+    margin-right: 10px;
 }
 
 #mobile-header {
