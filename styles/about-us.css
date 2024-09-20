@@ -424,9 +424,24 @@ a {
     color: rgb(170, 170, 170);
 }
 
-#h-img {
-    height: 32px;
-    margin-left: 20px;
+#g-img {
+    height: 16px;
+    margin-left: 24px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+#d-img {
+    height: 16px;
+    margin-left: 11px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+#i-img {
+    height: 18px;
+    margin-left: 23px;
+    margin-bottom: 7px;
     cursor: pointer;
 }
 
