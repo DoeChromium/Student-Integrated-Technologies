@@ -6,7 +6,8 @@
 
 #left-navbar {
     width: 130px;
-    height: 100vh;
+    height: 83.4vh;
+    margin-bottom: -100px;
     z-index: 0;
     background-color: rgb(71, 71, 71);
     color: white;
@@ -128,8 +129,8 @@ body {
     color: white;
     background-color: rgb(51, 51, 51);
     margin: 0;
-    overflow: hidden;
     user-select: none;
+    /* overflow: hidden; */
 }
 
 #main-header {
@@ -205,18 +206,17 @@ body {
     border: none;
     height: fit-content;
     text-align: center;
-    width: 1760px;
-    height:100vh;
+    width: 1295px;
+    height: fit-content;
 }
 
 #main-iframe {
     /* border: 1px red solid; */
     border: none;
     margin-left: 160px;
-    height: fit-content;
     text-align: center;
-    width: 1760px;
-    height:100vh;
+    width: 1308px;
+    height: 606px;
 }
 
 #footer-text {

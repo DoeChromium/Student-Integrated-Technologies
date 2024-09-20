@@ -56,3 +56,26 @@ function clkAbtUs() {
     projBTN.setAttribute('id', 'projects');
     homeBTN.setAttribute('id', 'home');
 }
+
+const width = screen.width;
+const height = screen.height;
+
+const main = document.getElementById('main-iframe')
+document.getElementById('print').innerHTML = width + " x " + height
+
+// if (width == "1517") {alert('1517')}
+// if (height == "852") {alert('852')}
+
+// document.getElementById('main-header').innerHTML = width + " " + height
+
+if (width == "1517", height == "852") {
+    main.style.width = "1308px";
+    main.style.height = "606px"
+} else {
+if (width == "1920", height == "1080") {
+    main.style.height = "606px"
+    main.style.width = "1760px";
+}
+else {
+    alert('unknown screen size!')
+}}
