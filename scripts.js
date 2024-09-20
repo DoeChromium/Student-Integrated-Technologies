@@ -61,7 +61,7 @@ const width = screen.width;
 const height = screen.height;
 
 const main = document.getElementById('main-iframe')
-document.getElementById('print').innerHTML = width + " x " + height
+const print = document.getElementById('print').innerHTML = width + " x " + height
 
 // if (width == "1517") {alert('1517')}
 // if (height == "852") {alert('852')}
@@ -72,10 +72,23 @@ if (width == "1517", height == "852") {
     main.style.width = "1308px";
     main.style.height = "606px"
 } else {
-if (width == "1920", height == "1080") {
-    main.style.height = "606px"
-    main.style.width = "1760px";
+    if (width == "1920", height == "1080") {
+        main.style.height = "606px"
+        main.style.width = "1760px";
+    }
+    else {
+        alert('unknown screen size!')
+    }
 }
-else {
-    alert('unknown screen size!')
-}}
+
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if (confirm('You are on mobile, would you like to visit the mobile-friendly site?')) {
+        alert('Redirecting');
+    } else {
+        alert('Cancled');
+    }
+    document.getElementById('print').textContent += " | mobile warning!"
+} else {
+    document.getElementById('print').textContent += " | not mobile"
+}
