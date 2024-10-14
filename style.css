@@ -85,6 +85,15 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(77, 77, 77);
 }
 
+#ag-navbar::-webkit-scrollbar {
+    background-color: #3b3b3b;
+    width: 5px;
+}
+
+#ag-navbar::-webkit-scrollbar-thumb {
+    background-color: rgb(77, 77, 77);
+}
+
 /* #schedule:active,
 #projects:active,
 #about-us:active {
@@ -138,7 +147,8 @@ body {
     user-select: none;
 }
 
-.index-body {
+.index-body,
+.agents-body {
     overflow: hidden;
 }
 
@@ -416,7 +426,7 @@ a {
 }
 
 .isaac-bd-lol {
-    border: 01px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 #subli {
@@ -568,16 +578,85 @@ a {
 
 /* END MOBILE */
 
-#agents-navbar {
-    width: 130px;
-    height: 1000vh;
+#ag-navbar {
+    width: 140px;
+    height: 100%;
     margin-bottom: -100px;
     z-index: 0;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(110, 110, 110);
     color: white;
     font-size: 17px;
-    padding-right: 30px;
     transition: all 0.1s ease-in;
     position: absolute;
     margin: auto;
+    padding: 5px;
+    overflow: scroll;
+}
+
+#ag-header {
+    width: 125px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(137, 137, 137);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#ag-user {
+    height: 28px;
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border: 1px solid red; */
+}
+
+#ag-user:hover {
+    cursor: pointer;
+}
+
+#ag-usr-img {
+    height: 26px;
+    width: 26px;
+    border-radius: 20px;
+    margin-top: 1px;
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+
+#ag-usr-img-isaac {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+#ag-user>b {
+    font-weight: normal;
+    margin-top: 3px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#ag-user:hover {
+    background: linear-gradient(90deg, rgba(214, 214, 214, 0.697) 0%, rgba(255,255,255,0) 100%);
+}
+
+#ag-user>u {
+    margin-left: -20px;
+    margin-top: 3px;
+    position: absolute;
+    text-decoration: none;
+    z-index: -1;
+}
+
+#u {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#ag-user:hover>#u {
+    transform: translateX(110px);
+    opacity: 1;
 }

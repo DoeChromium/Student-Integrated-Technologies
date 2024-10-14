@@ -109,7 +109,7 @@ const alt = document.getElementById('main')
 
 if (width == "1517", height == "852") {
     main.style.width = "1308px";
-    main.style.height = "606px";
+    main.style.height = "624px";
     alt.style.width = "1308px"
 } else {
     if (width == "1920", height == "1080") {
