@@ -5,7 +5,7 @@
     <title>S.I.T Homepage</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="body" class="index-body">
     
     <div id="main-header">
         <div id="logo-box">
@@ -31,9 +31,17 @@
             <img src="images/cpy.png" id="proj-img">
             &nbsp Projects
         </p>
+        <p id="agent-p" onclick="siteAp(), clkAp()">
+            <img src="images/agents.png" id="agent-img">
+            &nbsp Agents
+        </p>
         <p id="about-us" onclick="siteAboutUs(), clkAbtUs()">
             <img src="images/info.png" id="us-img">
             &nbsp About Us
+        </p>
+        <p id="info" onclick="siteInfo(), clkInfo()">
+            <img src="images/question.png" id="question-img">
+            &nbsp Info
         </p>
 
         <div id="subtext-div">
@@ -46,8 +54,8 @@
             <p onclick="location.href='https://github.com/DoeChromium/Student-Integrated-Technologies'" target="_blank" style="cursor: pointer;">
             <u>SourceCode</u></p>
             <p>Copydont S.I.T<sup>©</sup></p>
-            <p>v1.2 BETA</p>
-            <p id="print"></p>
+            <p>v1.4 BETA</p>
+            <p id="print" onclick="location.href='mobile.html'"></p>
             </div>
         </div>
     </div>
@@ -60,7 +68,7 @@
         </div>
     </div>
 
-    <iframe src="home.html" id="main-iframe"></iframe>
+    <iframe src="agents.html" id="main-iframe"></iframe>
 
 <!-- JQuery & Main scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

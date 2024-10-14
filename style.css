@@ -6,7 +6,7 @@
 
 #left-navbar {
     width: 130px;
-    height: 83.4vh;
+    height: 1000vh;
     margin-bottom: -100px;
     z-index: 0;
     background-color: rgb(71, 71, 71);
@@ -15,6 +15,7 @@
     padding-right: 30px;
     transition: all 0.1s ease-in;
     position: absolute;
+    margin: auto;
 }
 
 /* #nav-content {
@@ -37,7 +38,9 @@
 #home-img,
 #info-img,
 #proj-img,
-#us-img {
+#us-img,
+#agent-img,
+#question-img {
     height: 20px;
     width: 20px;
     margin-left: 10px;
@@ -50,7 +53,9 @@
 #home,
 #schedule,
 #projects,
-#about-us {
+#about-us,
+#agent-p,
+#info {
     height: 30px;
     padding-top: 6px;
     border-top-right-radius: 20px;
@@ -64,18 +69,20 @@
 #home:hover,
 #schedule:hover,
 #projects:hover,
-#about-us:hover {
+#about-us:hover,
+#agent-p:hover,
+#info:hover {
     background-color: rgba(105, 105, 105, 0.5);
     cursor: pointer;
 }
 
 body::-webkit-scrollbar {
-    background-color: rgb(167, 167, 167);
+    background-color: #3b3b3b;
     width: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #3b3b3b;
+    background-color: rgb(77, 77, 77);
 }
 
 /* #schedule:active,
@@ -84,9 +91,9 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(105, 105, 105, 0.8);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
     cursor: pointer;
-} */
+}
 
-/* #arrow {
+#arrow {
     height: 20px;
     width: 20px;
     bottom: 10px;
@@ -105,8 +112,7 @@ body::-webkit-scrollbar-thumb {
 	transform: rotateY(180deg);
 } */
 
-/* 
-Left Navigation Bar */
+/*  Left Navigation Bar */
 
 
 
@@ -130,7 +136,10 @@ body {
     background-color: rgb(51, 51, 51);
     margin: 0;
     user-select: none;
-    /* overflow: hidden; */
+}
+
+.index-body {
+    overflow: hidden;
 }
 
 #main-header {
@@ -206,7 +215,6 @@ body {
     border: none;
     height: fit-content;
     text-align: center;
-    width: 1295px;
     height: fit-content;
 }
 
@@ -324,7 +332,7 @@ a {
 }
 
 #isaac-hr-li {
-    height: 235px;
+    height: 215px;
     width: 5px;
     border: none;
     background-color: slategray;
@@ -435,7 +443,7 @@ a {
 
 #of-hr {
     height: 5px;
-    width: 700px;
+    width: 400px;
     border: none;
     background-color: slategray;
     border-radius: 5px;
@@ -501,6 +509,11 @@ a {
     margin-top: -7px;
 }
 
+#print:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* MOBILE */
 
 #mobile-sit-img {
@@ -554,3 +567,17 @@ a {
 }
 
 /* END MOBILE */
+
+#agents-navbar {
+    width: 130px;
+    height: 1000vh;
+    margin-bottom: -100px;
+    z-index: 0;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-size: 17px;
+    padding-right: 30px;
+    transition: all 0.1s ease-in;
+    position: absolute;
+    margin: auto;
+}
