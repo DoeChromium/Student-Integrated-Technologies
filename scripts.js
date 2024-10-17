@@ -114,7 +114,7 @@ if (width == "1517", height == "852") {
 } else {
     if (width == "1920", height == "1080") {
         main.style.width = "1758px";
-        main.style.height = "793px";
+        main.style.height = "799px";
         alt.style.width = "1758px"
     }
     else {
@@ -132,4 +132,135 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     print.textContent += " | mobile warning!"
 } else {
     print.textContent += " | not mobile"
+}
+
+
+function usrJake() {
+
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+function usrJon() {
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+
+function usrIsaac() {
+
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+function usrAngie() {
+
+    var lucas = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-angie');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+
+function usrGabe() {
+
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+function usrLucas() {
+
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
+}
+
+
+function usrSeb() {
+
+    var lucas = document.getElementById('profile-jake');
+    var angie = document.getElementById('profile-jon');
+    var lucas = document.getElementById('profile-isaac');
+    var angie = document.getElementById('profile-angie');
+    var lucas = document.getElementById('profile-gabe');
+    var angie = document.getElementById('profile-lucas');
+    var angie = document.getElementById('profile-seb');
+
+    jake.style.display = "none";
+    jon.style.display = "none";
+    isaac.style.display = "none";
+    angie.style.display = "none";
+    gabe.style.display = "none";
+    lucas.style.display = "none";
+    seb.style.display = "none";
 }

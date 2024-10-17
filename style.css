@@ -425,10 +425,6 @@ a {
     margin-top: -15px;
 }
 
-.isaac-bd-lol {
-    border: 1px solid rgb(255, 255, 255);
-}
-
 #subli {
     margin-left: 20px;
     list-style-type: "> ";
@@ -591,6 +587,7 @@ a {
     margin: auto;
     padding: 5px;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 #ag-header {
@@ -625,13 +622,6 @@ a {
     /* border: 1px solid red; */
 }
 
-#ag-usr-img-isaac {
-    height: 25px;
-    width: 25px;
-    border-radius: 20px;
-    margin-top: 1px;
-}
-
 #ag-user>b {
     font-weight: normal;
     margin-top: 3px;
@@ -659,4 +649,60 @@ a {
 #ag-user:hover>#u {
     transform: translateX(110px);
     opacity: 1;
+}
+
+.ag-profile {
+    height: 500px;
+    width: 700px;
+    background-color: gray;
+    position: relative;
+    float: left;
+    margin: 25px 0px 0px 175px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+#ag-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    transition: all 0.6s ease-in;
+    border-radius: 200px;
+    height: 300px;
+    margin: 30px;
+}
+
+#ag-img:hover {
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+#profile-jake {
+    display: none;
+}
+
+#profile-jon {
+    display: none;
+}
+
+#profile-isaac {
+    display: none;
+}
+
+#profile-angie {
+    display: none;
+}
+
+#profile-lucas {
+    display: none;
+}
+
+#profile-gabe {
+    display: none;
+}
+
+#profile-lucas {
+    display: none;
+}
+
+#profile-seb {
+    display: none;
 }
